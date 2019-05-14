@@ -11,6 +11,7 @@
   - [Screenshots](#screenshots)
   - [Table of Contents](#table-of-contents)
   - [Available Scripts](#available-scripts)
+    - [`npm install` or `yarn install`](#npm-install-or-yarn-install)
     - [`npm start` or `yarn start`](#npm-start-or-yarn-start)
       - [`npm run ios`](#npm-run-ios)
       - [`npm run android`](#npm-run-android)
@@ -20,6 +21,11 @@
 ## Available Scripts
 
 If Yarn was installed when the project was initialized, then dependencies will have been installed via Yarn, and you should probably use it to run these commands as well. Unlike dependency installation, command running syntax is identical for Yarn and NPM at the time of this writing.
+
+### `npm install` or `yarn install`
+
+Updated all dependencies.
+
 
 ### `npm start` or `yarn start`
 
