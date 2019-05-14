@@ -11,16 +11,17 @@
   - [Screenshots](#screenshots)
   - [Table of Contents](#table-of-contents)
   - [Available Scripts](#available-scripts)
-    - [`npm start`](#npm-start)
+    - [`npm start` or `yarn start`](#npm-start-or-yarn-start)
       - [`npm run ios`](#npm-run-ios)
       - [`npm run android`](#npm-run-android)
+      - [`json-derver --watch db.json`](#json-derver---watch-dbjson)
 
 
 ## Available Scripts
 
 If Yarn was installed when the project was initialized, then dependencies will have been installed via Yarn, and you should probably use it to run these commands as well. Unlike dependency installation, command running syntax is identical for Yarn and NPM at the time of this writing.
 
-### `npm start`
+### `npm start` or `yarn start`
 
 Runs your app in development mode.
 
@@ -32,3 +33,6 @@ Like `npm start`, but also attempts to open your app in the iOS Simulator if you
 #### `npm run android`
 
 Like `npm start`, but also attempts to open your app on a connected Android device or emulator. Requires an installation of Android build tools.
+
+#### `json-derver --watch db.json`
+Like `json-derver --watch db.json`, to run a fake api. 
