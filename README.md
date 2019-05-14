@@ -14,7 +14,7 @@
     - [`npm start` or `yarn start`](#npm-start-or-yarn-start)
       - [`npm run ios`](#npm-run-ios)
       - [`npm run android`](#npm-run-android)
-      - [`json-derver --watch db.json`](#json-derver---watch-dbjson)
+      - [`json-server --watch db.json`](#json-server---watch-dbjson)
 
 
 ## Available Scripts
@@ -34,5 +34,5 @@ Like `npm start`, but also attempts to open your app in the iOS Simulator if you
 
 Like `npm start`, but also attempts to open your app on a connected Android device or emulator. Requires an installation of Android build tools.
 
-#### `json-derver --watch db.json`
-Like `json-derver --watch db.json`, to run a fake api. 
+#### `json-server --watch db.json`
+Like `json-server --watch db.json`, to run a fake api. 
